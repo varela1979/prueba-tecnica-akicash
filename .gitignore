@@ -1,0 +1,20 @@
+# Dependencias, compilacion y reportes
+node_modules/
+dist/
+build/
+coverage/
+*.tsbuildinfo
+*.log
+
+# Configuracion privada; los ejemplos si se versionan
+.env
+.env.*
+!.env.example
+
+# Herramientas locales
+.agents/
+.claude/
+.codex/
+skills-lock.json
+.DS_Store
+Thumbs.db
